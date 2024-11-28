@@ -1,0 +1,4 @@
+markdown: kramdown
+# style: normal
+exclude:
+  - "docker-compose"

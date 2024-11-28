@@ -1,0 +1,123 @@
+body {
+	font: normal normal 400;
+	font-size: 100%;
+	line-height: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 400;
+	font-family: 'Comfortaa', sans-serif;
+	color: #26c6da;
+}
+
+h1 {
+	font-size: 5em;
+	line-height: 1em;
+	margin: 0;
+}
+
+/*subtitle*/
+h1+p {
+	font-style: italic;
+	font-size: 110%;
+}
+
+/* sections */
+h2 {
+	font-size: 2em;
+	margin-top: 1.5em;
+}
+
+code {
+	font: normal normal;
+	font-size: 80%;
+	/*line-height: 1em;*/
+	float: right;
+	font-family: Menlo, monospace, sans-serif;
+	color: #aaa;
+}
+
+strong {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+em {
+	font-weight: bold;
+	font-style: italic;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+p {
+	margin-bottom: 0.7em;
+	margin-right: 0;
+}
+
+ul {
+	margin-bottom: 1.5em;
+	margin-top: -0.5em;
+}
+
+/*uncomment to get dashes in the list*/
+/*li:before {
+	content: "-";
+	position: relative;
+	left: -0.25em;
+}*/
+
+li {
+	/*second line indent*/
+	padding-left: 1.25em;
+	text-indent: -1.25em;
+	/*color: #777;*/
+}
+
+li ul {
+	margin-top: 0.25em;
+}
+
+img {
+	vertical-align: middle;
+}
+
+a {
+	color: #ff9800;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #39f
+}
+
+#labs {
+	margin-top: 1em;
+	color: #aaa;
+	font-family: Menlo, monospace, sans-serif;
+	font-size: 80%;
+}
+
+footer {
+	font-weight: 100;
+	font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #000;
+	}
+
+	p, li, footer {
+		color: aliceblue;
+	}
+
+	img {
+		filter: invert(1);
+	}
+}
